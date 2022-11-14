@@ -1,0 +1,14 @@
+<model-viewer src="donny.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.jpeg" shadow-intensity="1" environment-image="spruit_sunrise_1k_HDR.hdr" skybox-image="spruit_sunrise_1k_HDR.hdr" camera-orbit="13.76deg 94.2deg auto">
+    <button class="Hotspot" slot="hotspot-2" data-position="16.997838997893936m 105.2874098416542m 17.07159593906786m" data-normal="0.5085106319233967m 0.7034986959564785m 0.4964942315963016m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Hello!</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
